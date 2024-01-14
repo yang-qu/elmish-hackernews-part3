@@ -197,3 +197,12 @@ project.lock.json
 .fable
 .ionide
 main.js
+
+# Fable
+fable_modules/
+
+# Vite
+dist/
+
+# Jetbrains
+.idea/

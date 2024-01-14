@@ -13,7 +13,7 @@ module Cmd =
 
       Async.StartImmediate delayedDispatch
 
-    Cmd.ofSub delayedCmd
+    Cmd.ofEffect delayedCmd
 
 module Async =
   let map f (computation: Async<'t>) =
